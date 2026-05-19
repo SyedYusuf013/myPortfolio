@@ -15,8 +15,11 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [dark, setDark] = useState(() => {
     if (typeof window !== "undefined") {
-      return localStorage.getItem("theme") === "dark" ||
-        (!localStorage.getItem("theme") && window.matchMedia("(prefers-color-scheme: dark)").matches);
+      return (
+        localStorage.getItem("theme") === "dark" ||
+        (!localStorage.getItem("theme") &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      );
     }
     return true;
   });
@@ -47,7 +50,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
         <Link to="/" className="text-xl font-bold gradient-text font-mono">
-          &lt;Dev /&gt;
+          &lt;Syed Yusuf /&gt;
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
@@ -56,7 +59,9 @@ export default function Navbar() {
               key={l.to}
               to={l.to}
               className={`text-sm font-medium transition-colors hover:text-primary ${
-                location.pathname === l.to ? "text-primary" : "text-muted-foreground"
+                location.pathname === l.to
+                  ? "text-primary"
+                  : "text-muted-foreground"
               }`}
             >
               {l.label}
@@ -77,7 +82,10 @@ export default function Navbar() {
           >
             {dark ? <Sun size={16} /> : <Moon size={16} />}
           </button>
-          <button onClick={() => setOpen(!open)} className="p-2 text-foreground">
+          <button
+            onClick={() => setOpen(!open)}
+            className="p-2 text-foreground"
+          >
             {open ? <X size={20} /> : <Menu size={20} />}
           </button>
         </div>

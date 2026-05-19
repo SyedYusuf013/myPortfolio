@@ -4,40 +4,96 @@ import AnimatedSection from "@/components/AnimatedSection";
 
 const skills = [
   { name: "React / Next.js", level: 95 },
-  { name: "TypeScript / JavaScript", level: 90 },
-  { name: "Node.js / Express", level: 85 },
-  { name: "MongoDB / MySQL", level: 80 },
+  { name: "JavaScript / TypeScript", level: 90 },
+  { name: "Node.js / Express", level: 92 },
+  { name: "Restful API / FastAPI", level: 80 },
+  { name: "MongoDB / MySQL", level: 85 },
   { name: "Tailwind / CSS", level: 92 },
-  { name: "Three.js / WebGL", level: 70 },
-  { name: "Docker / CI/CD", level: 65 },
-  { name: "Python / Django", level: 60 },
+  { name: "Python", level: 80 },
+  { name: "Git / GitHub", level: 85 },
+  { name: "Three.js", level: 60 },
+  { name: "Shopify", level: 80 },
 ];
 
 const timeline = [
   {
-    year: "2024",
-    title: "Senior Developer",
-    org: "Tech Corp",
-    desc: "Leading frontend architecture and mentoring junior developers.",
+    year: "Oct'25 - Present",
+    title: "Software Engineer",
+    org: "ArclogiQ Softwares Pvt. Ltd.",
+    desc: "Working on scalable web applications using Next.js, Node.js, Express, and MongoDB while contributing to frontend optimization, backend APIs, and Agile-based development workflows.",
   },
+
   {
-    year: "2024",
+    year: "May'25 - Sep'25",
+    title: "Software Developer Intern",
+    org: "Tiny Trolly",
+    desc: "Developed and customized Shopify-based e-commerce solutions, improved website performance, and enhanced user experience across multiple storefront features.",
+  },
+
+  {
+    year: "Jan'24 - Present",
     title: "Co-Founder & Full-Stack Developer",
     org: "Nextzen Software Solution",
-    desc: "Built scalable MERN stack applications from scratch.",
+    desc: "Founded and managed a web development startup, building full-stack MERN applications, REST APIs, authentication systems, and responsive user-focused digital products for clients.",
   },
+
   {
     year: "2024",
     title: "B.Tech in Electronics and Communication Engineering",
-    org: "Dr A.P.J Abdul Kalam Technical University",
-    desc: "Created pixel-perfect UIs with React and animations.",
+    org: "Dr. A.P.J Abdul Kalam Technical University",
+    desc: "Completed undergraduate studies while building strong technical, analytical, and problem-solving skills, alongside hands-on experience in software and web development.",
   },
+
+  {
+    year: "Jul'23 - Aug'23",
+    title: "Virtual Internship in Web Development",
+    org: "Bharat Intern",
+    desc: "Worked on practical web development projects using modern frontend technologies, strengthening skills in responsive design, JavaScript, and application development.",
+  },
+
   {
     year: "2019",
-    title: "High School in Maths",
+    title: "High School (Mathematics)",
     org: "St. Dominic Savio's High School",
-    desc: "Graduated with honors. Focus on web technologies.",
+    desc: "Built a strong academic foundation in mathematics, analytical thinking, and problem-solving skills.",
   },
+
+  // {
+  //   year: "Oct'25 - Present",
+  //   title: "Software Developer",
+  //   org: "ArclogiQ Softwares",
+  //   desc: "Leading frontend architecture and mentoring junior developers.",
+  // },
+  // {
+  //   year: "May'25 - Sep'25",
+  //   title: "Software Developer Intern",
+  //   org: "Tiny Trolly",
+  //   desc: "Leading frontend architecture and mentoring junior developers.",
+  // },
+  // {
+  //   year: "Jan'24 - Present",
+  //   title: "Co-Founder & Full-Stack Developer",
+  //   org: "Nextzen Software Solution",
+  //   desc: "Built scalable MERN stack applications from scratch.",
+  // },
+  // {
+  //   year: "2024",
+  //   title: "B.Tech in Electronics and Communication Engineering",
+  //   org: "Dr A.P.J Abdul Kalam Technical University",
+  //   desc: "Created pixel-perfect UIs with React and animations.",
+  // },
+  // {
+  //   year: "Jul'23 - Aug'23",
+  //   title: "Virtual Internship in Web Development",
+  //   org: "Bharat Intern",
+  //   desc: "Created pixel-perfect UIs with React and animations.",
+  // },
+  // {
+  //   year: "2019",
+  //   title: "High School in Maths",
+  //   org: "St. Dominic Savio's High School",
+  //   desc: "Built a strong academic foundation in mathematics, problem-solving, and logical reasoning.",
+  // },
 ];
 
 function SkillBar({
@@ -83,12 +139,24 @@ export default function AboutPage() {
           <AnimatedSection delay={0.1}>
             <div className="glass-card p-8 mb-16">
               <p className="text-muted-foreground leading-relaxed text-lg">
-                I'm a passionate full-stack developer with 2+ years of
+                <span className="text-foreground/60 font-semibold">
+                  Full-Stack Developer
+                </span>{" "}
+                with 2+ years of experience building and deploying scalable web
+                applications. Proficient in{" "}
+                <span className="text-foreground/60 font-semibold">
+                  React.js, Node.js, MongoDB, Express.js, and REST APIs,
+                </span>{" "}
+                with hands-on experience leading a web development startup and
+                delivering responsive, user-focused solutions. Skilled in
+                end-to-end application development, problem-solving, and modern
+                web technologies.
+                {/* I'm a passionate full-stack developer with 2+ years of
                 experience building modern web applications. I specialize in the
                 MERN stack and love creating beautiful, performant user
                 experiences. When I'm not coding, you'll find me contributing to
                 open source, writing tech articles, or exploring the latest in
-                web technologies.
+                web technologies. */}
                 {/* I build scalable and user-focused web applications using the
                 MERN stack. With 2+ years of experience and real-world projects,
                 I turn ideas into fast, responsive, and impactful digital

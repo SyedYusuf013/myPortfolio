@@ -50,12 +50,31 @@ export default function HomePage() {
 
             <AnimatedSection delay={0.3}>
               <p className="text-muted-foreground max-w-md mb-8 leading-relaxed">
-                I specialize in building scalable, user-centric web applications
+                <span className="text-foreground/60 font-semibold">
+                  Full-Stack Developer
+                </span>{" "}
+                specializing in{" "}
+                <span className="text-foreground/60 font-semibold">
+                  MERN stack applications,
+                </span>{" "}
+                scalable backend systems, and modern responsive interfaces.
+                Passionate about building{" "}
+                <span className="text-foreground/60 font-semibold">
+                  production-ready digital products
+                </span>{" "}
+                and delivering clean, user-focused web experiences.
+              </p>
+              {/* <p className="text-muted-foreground max-w-md mb-8 leading-relaxed">
+                Full-Stack Developer specializing in MERN stack applications,
+                scalable backend systems, and modern responsive interfaces.
+                Passionate about building production-ready digital products and
+                delivering clean, user-focused web experiences.
+                {/* I specialize in building scalable, user-centric web applications
                 using the MERN stack. Over the past 2+ years, I’ve worked on
                 real-world projects, including launching and managing my own web
                 development startup, where I turned ideas into production-ready
-                digital products.
-              </p>
+                digital products. */}
+              {/* </p> */}
             </AnimatedSection>
 
             <AnimatedSection delay={0.4}>
@@ -86,7 +105,7 @@ export default function HomePage() {
                   <Download size={18} /> Resume
                 </motion.button> */}
                 <a
-                  href="/s_f_yusuf_mern_stack_1.pdf"
+                  href="/resume_syed_f_yusuf(11).pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   download

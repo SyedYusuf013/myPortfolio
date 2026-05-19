@@ -1,10 +1,11 @@
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, Twitter, Mail, Instagram } from "lucide-react";
 
 const socials = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Mail, href: "#", label: "Email" },
+  { icon: Github, href: "https://github.com/SyedYusuf013", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/syed-yusuf-859a82220/", label: "LinkedIn" },
+  { icon: Twitter, href: "https://x.com/yusufsyed37573", label: "Twitter" },
+  { icon: Instagram, href: "https://www.instagram.com/syedfyusuf09/", label: "Instagram" },
+  { icon: Mail, href: "mailto:syedfayequeuddinyusuf@gmail.com", label: "Email" },
 ];
 
 export default function Footer() {
@@ -12,7 +13,7 @@ export default function Footer() {
     <footer className="border-t border-border/50 py-8 section-padding">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} <span className="gradient-text font-semibold">&lt;Dev /&gt;</span> — Built with passion
+          © {new Date().getFullYear()} <span className="gradient-text font-semibold">&lt;Syed Yusuf /&gt;</span> — Built with passion
         </p>
         <div className="flex gap-4">
           {socials.map((s) => (
