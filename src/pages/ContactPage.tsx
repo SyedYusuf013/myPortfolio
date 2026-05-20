@@ -94,7 +94,7 @@ export default function ContactPage() {
       <div className="min-h-screen pt-28 section-padding">
         <div className="max-w-5xl mx-auto">
           <AnimatedSection>
-            {/* <p className="text-sm font-mono text-primary mb-2">// contact</p> */}
+            <p className="text-sm font-mono text-primary mb-2">// contact</p>
             <h1 className="text-4xl md:text-5xl font-black mb-4">
               Get In <span className="gradient-text">Touch</span>
             </h1>

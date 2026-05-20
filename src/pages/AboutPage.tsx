@@ -130,7 +130,7 @@ export default function AboutPage() {
       <div className="min-h-screen pt-28 section-padding">
         <div className="max-w-5xl mx-auto">
           <AnimatedSection>
-            {/* <p className="text-sm font-mono text-primary mb-2">// about-me</p> */}
+            <p className="text-sm font-mono text-primary mb-2">// about-me</p>
             <h1 className="text-4xl md:text-5xl font-black mb-6">
               About <span className="gradient-text">Me</span>
             </h1>

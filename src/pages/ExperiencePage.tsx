@@ -257,7 +257,7 @@ export default function ExperiencePage() {
       <div className="min-h-screen pt-28 section-padding">
         <div className="max-w-5xl mx-auto">
           <AnimatedSection>
-            {/* <p className="text-sm font-mono text-primary mb-2">// experience</p> */}
+            <p className="text-sm font-mono text-primary mb-2">// experience</p>
             <h1 className="text-4xl md:text-5xl font-black mb-12">
               Experience & <span className="gradient-text">Tech Stack</span>
             </h1>
