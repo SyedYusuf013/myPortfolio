@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ParticleField from "@/components/ParticleField";
 import HomePage from "@/pages/HomePage";
+import FloatingButtons from "./components/FloatToTop";
 
 const AboutPage = lazy(() => import("@/pages/AboutPage"));
 const ProjectsPage = lazy(() => import("@/pages/ProjectsPage"));
@@ -41,6 +42,7 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
+        <FloatingButtons />
         <Footer />
       </BrowserRouter>
     </TooltipProvider>
