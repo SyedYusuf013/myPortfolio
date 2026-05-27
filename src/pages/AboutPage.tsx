@@ -24,14 +24,14 @@ const timeline = [
   },
 
   {
-    year: "May'25 - Sep'25",
+    year: "Apr'25 - Sep'25",
     title: "Software Developer Intern",
     org: "Tiny Trolly",
     desc: "Developed and customized Shopify-based e-commerce solutions, improved website performance, and enhanced user experience across multiple storefront features.",
   },
 
   {
-    year: "Jan'24 - Present",
+    year: "Jan'24 - Mar'25",
     title: "Co-Founder & Full-Stack Developer",
     org: "Nextzen Software Solution",
     desc: "Founded and managed a web development startup, building full-stack MERN applications, REST APIs, authentication systems, and responsive user-focused digital products for clients.",
