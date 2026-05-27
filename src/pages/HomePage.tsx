@@ -105,7 +105,7 @@ export default function HomePage() {
                   <Download size={18} /> Resume
                 </motion.button> */}
                 <a
-                  href="/resume_syed_f_yusuf(11).pdf"
+                  href="/s_f_yusuf_mern_stack (2).pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   download
