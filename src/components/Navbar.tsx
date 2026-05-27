@@ -49,8 +49,17 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-        <Link to="/" className="text-xl font-bold gradient-text font-mono">
+        {/* <Link to="/" className="text-xl font-bold gradient-text font-mono">
           &lt;Syed Yusuf /&gt;
+        </Link> */}
+
+        <Link
+          to="/"
+          className="flex items-center gap-3 text-xl font-bold gradient-text font-mono"
+        >
+          <img src="/lg1-bg.png" alt="logo" className="w-9 h-9 object-contain" />
+
+          <span>&lt;Syed Yusuf /&gt;</span>
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
